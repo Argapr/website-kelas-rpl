@@ -22,18 +22,54 @@ body {
     font-size: 40px;
 }
 .contect {
-    top: 20%;
-    margin-block: 20px;
+    text-align: center;
+    margin-top: -35px;
 }
-.contect img {
-    width: 800px;
-    height: 500px;
+@media (max-width: 1020px) {
+    .head a i {
+        z-index: 2;
+    }
+    .contect {
+        margin-top: 50px;
+    }
+    .contect video {
+        max-width: 100%;
+        margin-top: 10px;
+        width: 1200px;
+        height: auto;
+        text-align: center;
+        z-index: -2;
+    }
+}
+@media (max-width: 890px) {
+    .head a i {
+        z-index: 2;
+    }
+    .contect {
+        margin-top: 50px;
+    }
+    .contect video {
+        max-width: 100%;
+        margin-top: 100px;
+        width: 900px;
+        height: auto;
+        text-align: center;
+        z-index: -2;
+    }
 }
 @media (max-width: 780px) {
-    .contect img {
+    .head a i {
+        z-index: 2;
+    }
+    .contect {
+        margin-top: 50px;
+    }
+    .contect video{
         max-width: 100%;
-        width: 390px;
+        margin-top: 100px;
+        width: 600px;
         height: auto;
-        margin-left: 50px;
+        text-align: center;
+        z-index: -5;
     }
 }
